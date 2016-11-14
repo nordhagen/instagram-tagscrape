@@ -18,7 +18,7 @@ describe('instagram-tagscrape', function(){
 
     it('should return object containing count, total and media', function(done){
 
-        ig.scrapeTagPage({tag:'nrkvalg'}).then(function(result){
+        ig.scrapeTagPage('nrkvalg').then(function(result){
             assert.isAtLeast(result.count, 1);
             assert.isAtLeast(result.total, 1);
             assert.equal(result.media.length, result.count);
@@ -55,26 +55,28 @@ describe('instagram-tagscrape', function(){
 
     it('should return location data from locationPage', function(done){
 
-        ig.scrapeLocationPage({id:542401}).then(function(result){
+        ig.scrapeLocationPage(542401).then(function(result){
             assert.equal(result.name, 'Det Akademiske Kvarter');
             done();
         });
 
     });
 
-    it.only('should return data from single post', function(done){
+    it('should return data from single post', function(done){
 
-        ig.scrapePostPage({code: 'BMmWPcBhGAv'}).then(function(result){
-            assert.equal(result.id, 1380036423671849153);
+        ig.scrapePostPage('BMmWPcBhGAv').then(function(result){
+            assert.equal(result.id, 1379888153741254703);
             done();
         });
 
     });
 
-    it('should return media containing data from loading each post page', function(done){
-        
-        ig.scrapeTagPage({tag:'nrkvalg', deep:true}).then(function(result){
-            assert.isDefined(result.media[0].location);
+    it('should return media containing data from loading each post page and location page', function(done){
+        this.timeout(10000);
+
+        ig.deepScrapeTagPage('nrkvalg').then(function(result){
+            assert.isDefined(result.media[0].owner.username);
+            assert.isDefined(result.media[5].location.lat);
             done();
         });
 

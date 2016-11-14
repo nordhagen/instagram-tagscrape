@@ -6,21 +6,33 @@ var request = require('request'),
     locURL  = 'https://www.instagram.com/explore/locations/',
     dataExp = /window\._sharedData\s?=\s?({.+);<\/script>/;
 
-exports.scrapeTagPage = function(opts) {
-    opts = opts || {};
+exports.deepScrapeTagPage = function(tag) {
+    return new Promise(function(resolve, reject){
+        exports.scrapeTagPage(tag).then(function(tagPage){
+            return Promise.map(tagPage.media, function(media, i, len) {
+                return exports.scrapePostPage(media.code).then(function(postPage){
+                    tagPage.media[i] = postPage;
+                    if (postPage.location != null && postPage.location.has_public_page) {
+                        return exports.scrapeLocationPage(postPage.location.id).then(function(locationPage){
+                            tagPage.media[i].location = locationPage;
+                        });
+                    }
+                });
+            })
+            .then(function(){ resolve(tagPage); });
+        });        
+    });
+};
 
-    var result = new Promise(function(resolve, reject){
-        if (!opts.tag) return reject(new Error('Option "tag" must be specified'));
+exports.scrapeTagPage = function(tag) {
+    return new Promise(function(resolve, reject){
+        if (!tag) return reject(new Error('Argument "tag" must be specified'));
 
-        request(listURL + opts.tag, function(err, response, body){
+        request(listURL + tag, function(err, response, body){
             if (err) return reject(err);
 
             var data = scrape(body)
-
-            // fs.writeFileSync('./out.json', JSON.stringify(data.entry_data.TagPage[0].tag.media.nodes), 'utf8');
-
             var media = data.entry_data.TagPage[0].tag.media;
-
             resolve({
                 total: media.count,
                 count: media.nodes.length,
@@ -28,47 +40,24 @@ exports.scrapeTagPage = function(opts) {
             });
         })
     });
-
-    if (opts.deep) {
-        result.then(function(list){
-            var postDataPromises = [];
-            for (var i = media.nodes.length - 1; i >= 0; i--) {
-                postDataPromises.push(exports.scrapePost(media.nodes[i].code));
-            }
-            result.all(postDataPromises);
-        });
-    }
-
-    return result;
 };
 
-exports.scrapeLocationPage = function(opts) {
-    opts = opts || {};
-    
+exports.scrapeLocationPage = function(id) {
     return new Promise(function(resolve, reject){
-        if (!opts.id) return reject(new Error('Option "id" must be specified'));
+        if (!id) return reject(new Error('Argument "id" must be specified'));
         
-        request(locURL + opts.id, function(err, response, body){
+        request(locURL + id, function(err, response, body){
             var loc = scrape(body).entry_data.LocationsPage[0].location;
-            resolve({
-                public: loc.has_public_page,
-                name:   loc.name,
-                slug:   loc.slug,
-                lat:    loc.lat,
-                lng:    loc.lng,
-                id:     loc.id
-            }); 
+            resolve(loc); 
         });
     });
 }
 
-exports.scrapePostPage = function(opts) {
-    opts = opts || {};
-
+exports.scrapePostPage = function(code) {
     return new Promise(function(resolve, reject){
-        if (!opts.code) return reject(new Error('Option "code" must be specified'));
+        if (!code) return reject(new Error('Argument "code" must be specified'));
 
-        request(postURL + opts.code, function(err, response, body){
+        request(postURL + code, function(err, response, body){
             var data = scrape(body);
             resolve(data.entry_data.PostPage[0].media); 
         });
@@ -77,8 +66,6 @@ exports.scrapePostPage = function(opts) {
 
 var scrape = function(html) {
     var dataString = html.match(dataExp)[1];
-
-    // console.log(dataString);
 
     try {
         var json = JSON.parse(dataString);
