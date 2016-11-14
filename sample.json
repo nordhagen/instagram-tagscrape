@@ -1,0 +1,636 @@
+{
+    "country_code": "NO",
+    "language_code": "en",
+    "gatekeepers": {
+        "cc": true,
+        "ra": true
+    },
+    "show_app_install": true,
+    "static_root": "//instagramstatic-a.akamaihd.net/h1",
+    "platform": "web",
+    "activity_counts": null,
+    "hostname": "www.instagram.com",
+    "entry_data": {
+        "TagPage": [{
+            "tag": {
+                "media": {
+                    "count": 5855,
+                    "page_info": {
+                        "has_previous_page": false,
+                        "start_cursor": "1380036423671849153",
+                        "end_cursor": "J0HWCQimAAAAF0HWCLNcgAAAFiYA",
+                        "has_next_page": true
+                    },
+                    "nodes": [{
+                        "code": "BMm39DKD6DB",
+                        "date": 1478733183,
+                        "dimensions": {
+                            "width": 750,
+                            "height": 750
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "Nok en gang ble dette sitatet hyper-aktuelt... \ud83d\ude0a - ja til mer kvalitativt fokus.. P.s: OG allikevell fortsetter vi ene og alene med medarbeiderunders\u00f8kelser, meningsm\u00e5linger osv? \ud83d\ude48\ud83d\ude02 #usavalg #trump #president #poll #forecast #qualitative #anthropology #nrkvalg #quote #margaretmead #restmycase",
+                        "likes": {
+                            "count": 50
+                        },
+                        "owner": {
+                            "id": "393767493"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14719160_341462716214777_3017677686123266048_n.jpg?ig_cache_key=MTM4MDAzNjQyMzY3MTg0OTE1Mw%3D%3D.2",
+                        "is_video": false,
+                        "id": "1380036423671849153",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s750x750/sh0.08/e35/14719160_341462716214777_3017677686123266048_n.jpg?ig_cache_key=MTM4MDAzNjQyMzY3MTg0OTE1Mw%3D%3D.2"
+                    }, {
+                        "code": "BMm27BdA0d2",
+                        "date": 1478732642,
+                        "dimensions": {
+                            "width": 1080,
+                            "height": 1080
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "\ud83c\uddf3\ud83c\uddf4 @nrkdebatt med de kule gutta i baren. \ud83c\uddfa\ud83c\uddf8\n#nrkvalg @realdonaldtrump #usa #uselection #nrkurix @hegemoeeriksen @ingunnsolheim @nrk #nrknyheter #oslo",
+                        "likes": {
+                            "count": 34
+                        },
+                        "owner": {
+                            "id": "23753986"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/15034677_380120032327388_667090261670625280_n.jpg?ig_cache_key=MTM4MDAzMTg4NjM1Njg1ODc0Mg%3D%3D.2",
+                        "is_video": false,
+                        "id": "1380031886356858742",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/15034677_380120032327388_667090261670625280_n.jpg?ig_cache_key=MTM4MDAzMTg4NjM1Njg1ODc0Mg%3D%3D.2"
+                    }, {
+                        "code": "BMmWPcBhGAv",
+                        "date": 1478715508,
+                        "dimensions": {
+                            "width": 480,
+                            "height": 480
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "It was the best night. A lot of people said so! Foto: @studvest / Ingrid Kv\u00e5le Faleide #samfUSA #election2016 #nrkvalg #valgvake",
+                        "likes": {
+                            "count": 42
+                        },
+                        "owner": {
+                            "id": "290309294"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/15034513_1142863315797740_1888700774515474432_n.jpg?ig_cache_key=MTM3OTg4ODE1Mzc0MTI1NDcwMw%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379888153741254703",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s480x480/e35/15034513_1142863315797740_1888700774515474432_n.jpg?ig_cache_key=MTM3OTg4ODE1Mzc0MTI1NDcwMw%3D%3D.2"
+                    }, {
+                        "code": "BMmVOFkh_88",
+                        "date": 1478714972,
+                        "dimensions": {
+                            "width": 750,
+                            "height": 499
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "Trump stakk av med seieren i dag tidlig. Takk til alle som fulgte med p\u00e5 valget i lag med oss p\u00e5 @kvarteretbergen #samfUSA #election2016 #valgvake #nrkvalg Foto: @studvest / Beate Felde",
+                        "likes": {
+                            "count": 45
+                        },
+                        "owner": {
+                            "id": "290309294"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c169.0.675.675/14712202_1208340472556351_349535536743972864_n.jpg?ig_cache_key=MTM3OTg4MzY2Mjg2NjY0NDc5Ng%3D%3D.2.c",
+                        "is_video": false,
+                        "id": "1379883662866644796",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s750x750/sh0.08/e35/14712202_1208340472556351_349535536743972864_n.jpg?ig_cache_key=MTM3OTg4MzY2Mjg2NjY0NDc5Ng%3D%3D.2"
+                    }, {
+                        "code": "BMmR2uxgBh0",
+                        "date": 1478713208,
+                        "dimensions": {
+                            "width": 640,
+                            "height": 640
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 5
+                        },
+                        "caption": "Jeg er heldigvis ingen valgekspert, men det ble en annerledes natt enn jeg hadde trodd #nrkvalg",
+                        "likes": {
+                            "count": 31
+                        },
+                        "owner": {
+                            "id": "34717481"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/15043980_1433240373360279_5889216717703348224_n.jpg?ig_cache_key=MTM3OTg2ODg2MzcwMDY3MDU4MA%3D%3D.2",
+                        "is_video": true,
+                        "id": "1379868863700670580",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/15043980_1433240373360279_5889216717703348224_n.jpg?ig_cache_key=MTM3OTg2ODg2MzcwMDY3MDU4MA%3D%3D.2",
+                        "video_views": 148
+                    }, {
+                        "code": "BMl7tnMlcZv",
+                        "date": 1478701599,
+                        "dimensions": {
+                            "width": 1080,
+                            "height": 1080
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 1
+                        },
+                        "caption": "En skikkelig amerikansk burger p\u00e5 det mest amerikanske stedet i Nord-Tr\u00f8ndelag. Perfekt sted \u00e5 v\u00e6re live p\u00e5 NRK 1 dagen etter valget! #nrkvalg #nrktr\u00f8nderlag",
+                        "likes": {
+                            "count": 30
+                        },
+                        "owner": {
+                            "id": "192255769"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/15046981_554399731412252_4460182129392746496_n.jpg?ig_cache_key=MTM3OTc3MTQ4MDA2NjYwNjcwMw%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379771480066606703",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/15046981_554399731412252_4460182129392746496_n.jpg?ig_cache_key=MTM3OTc3MTQ4MDA2NjYwNjcwMw%3D%3D.2"
+                    }, {
+                        "code": "BMl2lZ_lzHu",
+                        "date": 1478698910,
+                        "dimensions": {
+                            "width": 1080,
+                            "height": 1080
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "Jostein og Simen skal studere i USA neste \u00e5r\ud83e\udd17 De er ikke spesielt forn\u00f8yd med presidentvalget \ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8 #nrkvalg \ud83d\udcf8: @sara.vilde",
+                        "likes": {
+                            "count": 43
+                        },
+                        "owner": {
+                            "id": "789925021"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/15047998_1778309422452564_4353355813021024256_n.jpg?ig_cache_key=MTM3OTc0ODkyNTkwMTU4MjgzMA%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379748925901582830",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/15047998_1778309422452564_4353355813021024256_n.jpg?ig_cache_key=MTM3OTc0ODkyNTkwMTU4MjgzMA%3D%3D.2"
+                    }, {
+                        "code": "BMlxqDahz7I",
+                        "date": 1478696327,
+                        "dimensions": {
+                            "width": 320,
+                            "height": 320
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 7
+                        },
+                        "caption": "Ikke for \u00e5 skryte, men... #nrkvalg",
+                        "likes": {
+                            "count": 141
+                        },
+                        "owner": {
+                            "id": "25168133"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/15043414_221387354957492_8232086923443699712_n.jpg?ig_cache_key=MTM3OTcyNzI1NTAyMjI4ODU4NA%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379727255022288584",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s320x320/e35/15043414_221387354957492_8232086923443699712_n.jpg?ig_cache_key=MTM3OTcyNzI1NTAyMjI4ODU4NA%3D%3D.2"
+                    }, {
+                        "code": "BMljDiQj2WF",
+                        "date": 1478688671,
+                        "dimensions": {
+                            "width": 640,
+                            "height": 581
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 16
+                        },
+                        "caption": "#2valg #nrkvalg",
+                        "likes": {
+                            "count": 896
+                        },
+                        "owner": {
+                            "id": "465839799"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/c29.0.591.591/14498946_1719099651743643_5747540443986395136_n.jpg?ig_cache_key=MTM3OTY2MzAzNTQzMDI5OTAxMw%3D%3D.2.c",
+                        "is_video": false,
+                        "id": "1379663035430299013",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14498946_1719099651743643_5747540443986395136_n.jpg?ig_cache_key=MTM3OTY2MzAzNTQzMDI5OTAxMw%3D%3D.2"
+                    }, {
+                        "code": "BMld93jgLCf",
+                        "date": 1478686004,
+                        "dimensions": {
+                            "width": 750,
+                            "height": 750
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 2
+                        },
+                        "caption": "Trur eg flytte inn i dette skjerfet. #Rump #stakkarsverden #nrkvalg #hurrafornorge #p\u00e5toget #nsb",
+                        "likes": {
+                            "count": 54
+                        },
+                        "owner": {
+                            "id": "1419232221"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/15035537_356033434744853_2642918957501120512_n.jpg?ig_cache_key=MTM3OTY0MDY1NTc0NzI2NDY3MQ%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379640655747264671",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s750x750/sh0.08/e35/15035537_356033434744853_2642918957501120512_n.jpg?ig_cache_key=MTM3OTY0MDY1NTc0NzI2NDY3MQ%3D%3D.2"
+                    }, {
+                        "code": "BMlXm5aBB8w",
+                        "date": 1478682670,
+                        "dimensions": {
+                            "width": 640,
+                            "height": 640
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "For en trist dag p\u00e5 alle m\u00e5ter! N\u00e5r starter den tredje verdenskrig? #NRKvalg",
+                        "likes": {
+                            "count": 8
+                        },
+                        "owner": {
+                            "id": "1400559563"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e15/14591107_361477450865814_8142441833465643008_n.jpg?ig_cache_key=MTM3OTYxMjY4ODkwODU1ODEyOA%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379612688908558128",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e15/14591107_361477450865814_8142441833465643008_n.jpg?ig_cache_key=MTM3OTYxMjY4ODkwODU1ODEyOA%3D%3D.2"
+                    }, {
+                        "code": "BMlWz3njOJ7",
+                        "date": 1478682252,
+                        "dimensions": {
+                            "width": 1080,
+                            "height": 1080
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "Neinei. Jaja. Takk for meg. H\u00f8sten2016 vil for evig v\u00e6re \"h\u00f8sten alt gikk galt i politikken\" #election2016 #NRKvalg #livet. Snart #tr\u00f8stetaco #lostacos",
+                        "likes": {
+                            "count": 37
+                        },
+                        "owner": {
+                            "id": "190989548"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14262868_164754440655562_3810843135060213760_n.jpg?ig_cache_key=MTM3OTYwOTE4MjI5NDgyNzY0Mw%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379609182294827643",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14262868_164754440655562_3810843135060213760_n.jpg?ig_cache_key=MTM3OTYwOTE4MjI5NDgyNzY0Mw%3D%3D.2"
+                    }, {
+                        "code": "BMlV03Gjdwg",
+                        "date": 1478681736,
+                        "dimensions": {
+                            "width": 640,
+                            "height": 640
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "Press tilbake. #albertcamus #oversattsj\u00e6l #makeamerikatrumpagain #donaldtrump #nrkvalg #vgvalgusa",
+                        "likes": {
+                            "count": 22
+                        },
+                        "owner": {
+                            "id": "178330632"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/15034570_1709365336048297_5202140757728690176_n.jpg?ig_cache_key=MTM3OTYwNDg1MjQxNDIwOTA1Ng%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379604852414209056",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/15034570_1709365336048297_5202140757728690176_n.jpg?ig_cache_key=MTM3OTYwNDg1MjQxNDIwOTA1Ng%3D%3D.2"
+                    }, {
+                        "code": "BMlNQTJj1Jq",
+                        "date": 1478677242,
+                        "dimensions": {
+                            "width": 1080,
+                            "height": 1080
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 3
+                        },
+                        "caption": "Jeg tror jeg bare trekker ned nisselua, tar meg en kaffe i min nye julekopp og redigerer bilder s\u00e5 folk f\u00e5r det de skal ha til jul. #takkformeg #2valg",
+                        "likes": {
+                            "count": 43
+                        },
+                        "owner": {
+                            "id": "665217"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14482928_368812620125106_4850440321244332032_n.jpg?ig_cache_key=MTM3OTU2NzE1NTUzNjY3OTUzMA%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379567155536679530",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14482928_368812620125106_4850440321244332032_n.jpg?ig_cache_key=MTM3OTU2NzE1NTUzNjY3OTUzMA%3D%3D.2"
+                    }, {
+                        "code": "BMlMs7bjRDq",
+                        "date": 1478676952,
+                        "dimensions": {
+                            "width": 640,
+                            "height": 799
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "Donald Trump er USAs neste president. Nattens sjokkvalg f\u00f8rer til at det er eiendomsmogulen som flytter inn i Det hvite hus 20. januar 2017. #nrkvalg #nrknyheter #donaldtrump",
+                        "likes": {
+                            "count": 6
+                        },
+                        "owner": {
+                            "id": "3632597078"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/c0.89.720.720/14677174_1026738417448608_7836868954898300928_n.jpg?ig_cache_key=MTM3OTU2NDcyNDg4NzAzMjA0Mg%3D%3D.2.c",
+                        "is_video": true,
+                        "id": "1379564724887032042",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e15/p640x640/14677174_1026738417448608_7836868954898300928_n.jpg?ig_cache_key=MTM3OTU2NDcyNDg4NzAzMjA0Mg%3D%3D.2",
+                        "video_views": 170
+                    }, {
+                        "code": "BMlLvjIDrqi",
+                        "date": 1478676449,
+                        "dimensions": {
+                            "width": 640,
+                            "height": 640
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 1
+                        },
+                        "caption": "Navnebroren til Donald Duck vart visst president i USA... #USA #nrkval #nrkvalg #trump #donaldduck",
+                        "likes": {
+                            "count": 2
+                        },
+                        "owner": {
+                            "id": "5896383"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14733262_1256959144327302_7686340551720828928_n.jpg?ig_cache_key=MTM3OTU2MDUwNjkwMjEwMDY0Mg%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379560506902100642",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14733262_1256959144327302_7686340551720828928_n.jpg?ig_cache_key=MTM3OTU2MDUwNjkwMjEwMDY0Mg%3D%3D.2"
+                    }, {
+                        "code": "BMlKjg7g5oy",
+                        "date": 1478675826,
+                        "dimensions": {
+                            "width": 640,
+                            "height": 640
+                        },
+                        "comments_disabled": false,
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "God morgen! Donald Trump er USAs neste president! #nrkvalg @realdonaldtrump",
+                        "likes": {
+                            "count": 37
+                        },
+                        "owner": {
+                            "id": "585767889"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/14590909_199829597127123_1547843919272738816_n.jpg?ig_cache_key=MTM3OTU1NTI4MTg2Mzk0MDY1OA%3D%3D.2",
+                        "is_video": true,
+                        "id": "1379555281863940658",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/14590909_199829597127123_1547843919272738816_n.jpg?ig_cache_key=MTM3OTU1NTI4MTg2Mzk0MDY1OA%3D%3D.2",
+                        "video_views": 781
+                    }]
+                },
+                "content_advisory": null,
+                "top_posts": {
+                    "nodes": [{
+                        "code": "BMkHyOego7Q",
+                        "date": 1478640819,
+                        "dimensions": {
+                            "width": 1080,
+                            "height": 1080
+                        },
+                        "comments": {
+                            "count": 3
+                        },
+                        "caption": "\ud83c\uddfa\ud83c\uddf8\u270c\ud83c\udffe\ufe0f\ud83d\ude80 #tbt April 2015 \ud83d\udcf8Photo: @kiiim @nrkp3 with @repostapp #nrkp3 #nrk #hillaryclinton #p3morgen #theresemblanceisuncanny #fundayatwork #radio #hosts #election2016 #nrkvalg",
+                        "likes": {
+                            "count": 497
+                        },
+                        "owner": {
+                            "id": "38712469"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14733204_1838418566394164_4438610282486431744_n.jpg?ig_cache_key=MTM3OTI2MTYyMzcyNTg4NzE4NA%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379261623725887184",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14733204_1838418566394164_4438610282486431744_n.jpg?ig_cache_key=MTM3OTI2MTYyMzcyNTg4NzE4NA%3D%3D.2"
+                    }, {
+                        "code": "BMlxqDahz7I",
+                        "date": 1478696327,
+                        "dimensions": {
+                            "width": 320,
+                            "height": 320
+                        },
+                        "comments": {
+                            "count": 7
+                        },
+                        "caption": "Ikke for \u00e5 skryte, men... #nrkvalg",
+                        "likes": {
+                            "count": 141
+                        },
+                        "owner": {
+                            "id": "25168133"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/15043414_221387354957492_8232086923443699712_n.jpg?ig_cache_key=MTM3OTcyNzI1NTAyMjI4ODU4NA%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379727255022288584",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s320x320/e35/15043414_221387354957492_8232086923443699712_n.jpg?ig_cache_key=MTM3OTcyNzI1NTAyMjI4ODU4NA%3D%3D.2"
+                    }, {
+                        "code": "BMk5toAA1PS",
+                        "date": 1478666996,
+                        "dimensions": {
+                            "width": 320,
+                            "height": 320
+                        },
+                        "comments": {
+                            "count": 1
+                        },
+                        "caption": "Immigration website crashes as Donald Trump election victory looks imminent #Canada #uselection #2valg #nrkvalg",
+                        "likes": {
+                            "count": 62
+                        },
+                        "owner": {
+                            "id": "180988305"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14726400_218609941897655_3953839780508205056_n.jpg?ig_cache_key=MTM3OTQ4MTIwOTg1OTY5MTQ3NA%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379481209859691474",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s320x320/e35/14726400_218609941897655_3953839780508205056_n.jpg?ig_cache_key=MTM3OTQ4MTIwOTg1OTY5MTQ3NA%3D%3D.2"
+                    }, {
+                        "code": "BMmVOFkh_88",
+                        "date": 1478714972,
+                        "dimensions": {
+                            "width": 750,
+                            "height": 499
+                        },
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "Trump stakk av med seieren i dag tidlig. Takk til alle som fulgte med p\u00e5 valget i lag med oss p\u00e5 @kvarteretbergen #samfUSA #election2016 #valgvake #nrkvalg Foto: @studvest / Beate Felde",
+                        "likes": {
+                            "count": 45
+                        },
+                        "owner": {
+                            "id": "290309294"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c169.0.675.675/14712202_1208340472556351_349535536743972864_n.jpg?ig_cache_key=MTM3OTg4MzY2Mjg2NjY0NDc5Ng%3D%3D.2.c",
+                        "is_video": false,
+                        "id": "1379883662866644796",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s750x750/sh0.08/e35/14712202_1208340472556351_349535536743972864_n.jpg?ig_cache_key=MTM3OTg4MzY2Mjg2NjY0NDc5Ng%3D%3D.2"
+                    }, {
+                        "code": "BMmR2uxgBh0",
+                        "date": 1478713208,
+                        "dimensions": {
+                            "width": 640,
+                            "height": 640
+                        },
+                        "comments": {
+                            "count": 5
+                        },
+                        "caption": "Jeg er heldigvis ingen valgekspert, men det ble en annerledes natt enn jeg hadde trodd #nrkvalg",
+                        "likes": {
+                            "count": 31
+                        },
+                        "owner": {
+                            "id": "34717481"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/15043980_1433240373360279_5889216717703348224_n.jpg?ig_cache_key=MTM3OTg2ODg2MzcwMDY3MDU4MA%3D%3D.2",
+                        "is_video": true,
+                        "id": "1379868863700670580",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/15043980_1433240373360279_5889216717703348224_n.jpg?ig_cache_key=MTM3OTg2ODg2MzcwMDY3MDU4MA%3D%3D.2",
+                        "video_views": 148
+                    }, {
+                        "code": "BMkHOq-AhMc",
+                        "date": 1478640528,
+                        "dimensions": {
+                            "width": 1080,
+                            "height": 810
+                        },
+                        "comments": {
+                            "count": 1
+                        },
+                        "caption": "Potensielt grav\u00f8l. #nrkvalg",
+                        "likes": {
+                            "count": 197
+                        },
+                        "owner": {
+                            "id": "220427868"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c135.0.810.810/14716377_1715017068826447_5260915001467600896_n.jpg?ig_cache_key=MTM3OTI1OTE4MDQxNzk0NjM5Ng%3D%3D.2.c",
+                        "is_video": false,
+                        "id": "1379259180417946396",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14716377_1715017068826447_5260915001467600896_n.jpg?ig_cache_key=MTM3OTI1OTE4MDQxNzk0NjM5Ng%3D%3D.2"
+                    }, {
+                        "code": "BMl2lZ_lzHu",
+                        "date": 1478698910,
+                        "dimensions": {
+                            "width": 1080,
+                            "height": 1080
+                        },
+                        "comments": {
+                            "count": 0
+                        },
+                        "caption": "Jostein og Simen skal studere i USA neste \u00e5r\ud83e\udd17 De er ikke spesielt forn\u00f8yd med presidentvalget \ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8 #nrkvalg \ud83d\udcf8: @sara.vilde",
+                        "likes": {
+                            "count": 43
+                        },
+                        "owner": {
+                            "id": "789925021"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/15047998_1778309422452564_4353355813021024256_n.jpg?ig_cache_key=MTM3OTc0ODkyNTkwMTU4MjgzMA%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379748925901582830",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/15047998_1778309422452564_4353355813021024256_n.jpg?ig_cache_key=MTM3OTc0ODkyNTkwMTU4MjgzMA%3D%3D.2"
+                    }, {
+                        "code": "BMjjdIFAjWU",
+                        "date": 1478621772,
+                        "dimensions": {
+                            "width": 1080,
+                            "height": 1080
+                        },
+                        "comments": {
+                            "count": 2
+                        },
+                        "caption": "Man kan tydeligvis stemme i sykkelshorts og hjelm(?) (viserpresidentkandidat Pence) og solbriller (Melania Trump) innend\u00f8rs i USA \ud83d\udc40 - Men s\u00e5 husker vi jo alle Mr. Nelson - skummel amerikaner med solbriller \ud83d\udd75\ud83c\udffc\ud83d\ude1c\ud83c\uddfa\ud83c\uddf8",
+                        "likes": {
+                            "count": 18
+                        },
+                        "owner": {
+                            "id": "22175024"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14705184_871340776299437_4590661693951967232_n.jpg?ig_cache_key=MTM3OTEwMTg0NDA3MjE4MzE4OA%3D%3D.2",
+                        "is_video": false,
+                        "id": "1379101844072183188",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14705184_871340776299437_4590661693951967232_n.jpg?ig_cache_key=MTM3OTEwMTg0NDA3MjE4MzE4OA%3D%3D.2"
+                    }, {
+                        "code": "BMkOXk6DzYF",
+                        "date": 1478644271,
+                        "dimensions": {
+                            "width": 1080,
+                            "height": 680
+                        },
+                        "comments": {
+                            "count": 2
+                        },
+                        "caption": "Rolig valgvake med store og sm\u00e5.\ud83d\udca4 Kom igjen, USA, ikke tull n\u00e5. #nrkvalg #clinton",
+                        "likes": {
+                            "count": 34
+                        },
+                        "owner": {
+                            "id": "233324866"
+                        },
+                        "thumbnail_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/c200.0.680.680/14723127_334365716926824_2700142365858856960_n.jpg?ig_cache_key=MTM3OTI5MDU3ODcxMDExNTg0NQ%3D%3D.2.c",
+                        "is_video": false,
+                        "id": "1379290578710115845",
+                        "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14723127_334365716926824_2700142365858856960_n.jpg?ig_cache_key=MTM3OTI5MDU3ODcxMDExNTg0NQ%3D%3D.2"
+                    }]
+                },
+                "name": "nrkvalg"
+            }
+        }]
+    },
+    "qe": {
+        "profile": {
+            "p": {},
+            "g": ""
+        },
+        "su_universe": {
+            "p": {},
+            "g": ""
+        },
+        "us": {
+            "p": {},
+            "g": ""
+        },
+        "freq": {
+            "p": {},
+            "g": ""
+        },
+        "us_li": {
+            "p": {},
+            "g": ""
+        },
+        "discovery": {
+            "p": {},
+            "g": ""
+        }
+    },
+    "display_properties_server_guess": {
+        "viewport_width": 360,
+        "pixel_ratio": 1.5
+    },
+    "config": {
+        "viewer": null,
+        "csrf_token": "DKnrVpGx3j2WeU8vQre3cIepLIa7fvUU"
+    },
+    "environment_switcher_visible_server_guess": true
+}

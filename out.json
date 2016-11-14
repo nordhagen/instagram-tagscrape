@@ -1,0 +1,158 @@
+{
+    "country_code": "NO",
+    "language_code": "en",
+    "gatekeepers": {
+        "cc": true,
+        "ra": true
+    },
+    "show_app_install": true,
+    "static_root": "//instagramstatic-a.akamaihd.net/h1",
+    "platform": "web",
+    "activity_counts": null,
+    "hostname": "www.instagram.com",
+    "entry_data": {
+        "PostPage": [{
+            "media": {
+                "caption_is_edited": true,
+                "code": "BMm39DKD6DB",
+                "date": 1478733183,
+                "dimensions": {
+                    "width": 750,
+                    "height": 750
+                },
+                "usertags": {
+                    "nodes": []
+                },
+                "comments_disabled": false,
+                "comments": {
+                    "count": 0,
+                    "page_info": {
+                        "has_previous_page": false,
+                        "start_cursor": null,
+                        "end_cursor": null,
+                        "has_next_page": false
+                    },
+                    "nodes": []
+                },
+                "id": "1380036423671849153",
+                "caption": "Nok en gang ble dette sitatet hyper-aktuelt... \ud83d\ude0a - ja til mer kvalitativt fokus.. P.s: OG allikevell fortsetter vi ene og alene med medarbeiderunders\u00f8kelser, meningsm\u00e5linger osv? \ud83d\ude48\ud83d\ude02 #usavalg #trump #president #poll #forecast #qualitative #anthropology #nrkvalg #quote #margaretmead #restmycase",
+                "likes": {
+                    "count": 52,
+                    "viewer_has_liked": false,
+                    "nodes": [{
+                        "user": {
+                            "username": "susanne6697",
+                            "profile_pic_url": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-19/s150x150/13473382_276240802730233_1328412927_a.jpg",
+                            "id": "3045564277"
+                        }
+                    }, {
+                        "user": {
+                            "username": "butikkutvikler",
+                            "profile_pic_url": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-19/11917952_1458934461081476_1818377533_a.jpg",
+                            "id": "544098304"
+                        }
+                    }, {
+                        "user": {
+                            "username": "solvi_m_strikk",
+                            "profile_pic_url": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-19/s150x150/13394969_1161419837241705_1656436250_a.jpg",
+                            "id": "436583609"
+                        }
+                    }, {
+                        "user": {
+                            "username": "formicae_thinking",
+                            "profile_pic_url": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-19/s150x150/13259602_801392876628472_913796966_a.jpg",
+                            "id": "3256003994"
+                        }
+                    }, {
+                        "user": {
+                            "username": "frkandersdatter",
+                            "profile_pic_url": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-19/s150x150/15056737_239474703135617_2307563100666068992_a.jpg",
+                            "id": "482296720"
+                        }
+                    }, {
+                        "user": {
+                            "username": "tommy_jensen",
+                            "profile_pic_url": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-19/11850057_832382843544166_615128201_a.jpg",
+                            "id": "183216610"
+                        }
+                    }, {
+                        "user": {
+                            "username": "robertjhillphotography",
+                            "profile_pic_url": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-19/s150x150/14712081_1797277273849508_6235932320654688256_a.jpg",
+                            "id": "297588119"
+                        }
+                    }, {
+                        "user": {
+                            "username": "pcsams",
+                            "profile_pic_url": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-19/s150x150/15034895_694437780712183_3725512807882424320_a.jpg",
+                            "id": "1703706832"
+                        }
+                    }, {
+                        "user": {
+                            "username": "shannonfimreite",
+                            "profile_pic_url": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-19/s150x150/14498838_1883629541858015_3009345067316936704_a.jpg",
+                            "id": "854194495"
+                        }
+                    }, {
+                        "user": {
+                            "username": "iisonorge",
+                            "profile_pic_url": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-19/10467718_920742487951196_61565543_a.jpg",
+                            "id": "1409263498"
+                        }
+                    }]
+                },
+                "owner": {
+                    "username": "fastantropolog",
+                    "is_unpublished": false,
+                    "requested_by_viewer": false,
+                    "followed_by_viewer": false,
+                    "blocked_by_viewer": false,
+                    "profile_pic_url": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-19/s150x150/10387808_422885184583200_668439023_a.jpg",
+                    "full_name": "Ivar Haugstad",
+                    "has_blocked_viewer": false,
+                    "id": "393767493",
+                    "is_private": false
+                },
+                "is_video": false,
+                "is_ad": false,
+                "display_src": "https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/s750x750/sh0.08/e35/14719160_341462716214777_3017677686123266048_n.jpg?ig_cache_key=MTM4MDAzNjQyMzY3MTg0OTE1Mw%3D%3D.2",
+                "location": null
+            }
+        }]
+    },
+    "qe": {
+        "profile": {
+            "p": {},
+            "g": ""
+        },
+        "su_universe": {
+            "p": {},
+            "g": ""
+        },
+        "us": {
+            "p": {},
+            "g": ""
+        },
+        "freq": {
+            "p": {},
+            "g": ""
+        },
+        "us_li": {
+            "p": {},
+            "g": ""
+        },
+        "discovery": {
+            "p": {},
+            "g": ""
+        }
+    },
+    "display_properties_server_guess": {
+        "viewport_width": 360,
+        "pixel_ratio": 1.5
+    },
+    "config": {
+        "viewer": null,
+        "csrf_token": "b0LphlQDFXL4MKffK1Nj7rly17WHn1Uo"
+    },
+    "environment_switcher_visible_server_guess": true
+}

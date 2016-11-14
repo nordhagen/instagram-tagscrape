@@ -1,0 +1,32 @@
+{
+  "name": "instagram-tagscrape",
+  "version": "1.0.0",
+  "description": "NPM module for loading images from Instagram by hashtag without API access by means of scraping.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nordhagen/instagram-tagscrape.git"
+  },
+  "keywords": [
+    "instagram",
+    "hashtag",
+    "scrape"
+  ],
+  "author": "Øyvind Nordhagen <@nordhagen>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nordhagen/instagram-tagscrape/issues"
+  },
+  "homepage": "https://github.com/nordhagen/instagram-tagscrape#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.1.2"
+  },
+  "dependencies": {
+    "bluebird": "3.4.6",
+    "request": "2.78.0"
+  }
+}
