@@ -57,7 +57,7 @@ Example response:
 
 As you can see, only the basic info required for listing images is returned. If you need further info, like more info about the owner of the post or the location, you can perform these queries separately or all in one go with the included `deepScrapeTagPage` method which populates the original tag page response with the corresponding data from the postPage and locationPage methods.
 
-### Deep tage page scraping
+### Deep tag page scraping
 
 ```javascript
 var ig = require('instagram-tagscrape');
