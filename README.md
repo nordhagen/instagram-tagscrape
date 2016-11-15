@@ -1,4 +1,4 @@
-instagram-tagscrape
+instagram-tagscrape [![Build Status](https://travis-ci.org/nordhagen/instagram-tagscrape.svg?branch=master)](https://travis-ci.org/nordhagen/instagram-tagscrape)
 ==============
 NodeJS module for loading posts from Instagram by hashtag, individual post pages and locationpages without API access by means of scraping.
 
