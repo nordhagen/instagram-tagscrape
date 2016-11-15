@@ -1,6 +1,5 @@
 var request = require('request'),
     Promise = require('bluebird'),
-    fs      = require('fs'),
     listURL = 'https://www.instagram.com/explore/tags/',
     postURL = 'https://www.instagram.com/p/',
     locURL  = 'https://www.instagram.com/explore/locations/',
@@ -32,26 +31,21 @@ exports.scrapeTagPage = function(tag) {
             if (err) return reject(err);
 
             var data = scrape(body)
-            var media = data.entry_data.TagPage[0].tag.media;
-            resolve({
-                total: media.count,
-                count: media.nodes.length,
-                media: media.nodes
-            });
+
+            if (data) {
+                var media = data.entry_data.TagPage[0].tag.media;
+                resolve({
+                    total: media.count,
+                    count: media.nodes.length,
+                    media: media.nodes
+                });
+            }
+            else {
+                reject(new Error('Error scraping tag page "' + tag + '"'));
+            }
         })
     });
 };
-
-exports.scrapeLocationPage = function(id) {
-    return new Promise(function(resolve, reject){
-        if (!id) return reject(new Error('Argument "id" must be specified'));
-        
-        request(locURL + id, function(err, response, body){
-            var loc = scrape(body).entry_data.LocationsPage[0].location;
-            resolve(loc); 
-        });
-    });
-}
 
 exports.scrapePostPage = function(code) {
     return new Promise(function(resolve, reject){
@@ -59,23 +53,44 @@ exports.scrapePostPage = function(code) {
 
         request(postURL + code, function(err, response, body){
             var data = scrape(body);
-            resolve(data.entry_data.PostPage[0].media); 
+            if (data) {
+                resolve(data.entry_data.PostPage[0].media); 
+            }
+            else {
+                reject(new Error('Error scraping post page "' + code + '"'));
+            }
+        });
+    });
+}
+
+exports.scrapeLocationPage = function(id) {
+    return new Promise(function(resolve, reject){
+        if (!id) return reject(new Error('Argument "id" must be specified'));
+        
+        request(locURL + id, function(err, response, body){
+            var data = scrape(body);
+
+            if (data) {
+                resolve(data.entry_data.LocationsPage[0].location);
+            }
+            else {
+                reject(new Error('Error scraping location page "' + id + '"'));
+            }
         });
     });
 }
 
 var scrape = function(html) {
-    var dataString = html.match(dataExp)[1];
-
     try {
+        var dataString = html.match(dataExp)[1];
         var json = JSON.parse(dataString);
     }
     catch(e) {
-        if (process.env.NODE_ENV == 'development') {
-            console.log('Last 100 chars: ' + dataString.substr(-100, 100));
-            fs.writeFileSync('./debug.html', body, 'utf8');
+        if (process.env.NODE_ENV != 'production') {
+            console.log(html);
+            console.error('The above HTML returned from instagram was not suitable for scraping');
         }
-        throw e;
+        return null
     }
 
     return json;
