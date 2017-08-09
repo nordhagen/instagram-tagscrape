@@ -14,11 +14,23 @@ exports.deepScrapeTagPage = function(tag) {
                     if (postPage.location != null && postPage.location.has_public_page) {
                         return exports.scrapeLocationPage(postPage.location.id).then(function(locationPage){
                             tagPage.media[i].location = locationPage;
+                        })
+                        .catch(function(err) {
+                            console.log("An error occurred calling scrapeLocationPage inside deepScrapeTagPage" + ":" + err);
                         });
                     }
+                })
+                .catch(function(err) {
+                    console.log("An error occurred calling scrapePostPage inside deepScrapeTagPage" + ":" + err);
                 });
             })
-            .then(function(){ resolve(tagPage); });
+            .then(function(){ resolve(tagPage); })
+            .catch(function(err) {
+                console.log("An error occurred resolving tagPage inside deepScrapeTagPage" + ":" + err);
+            });
+        })
+        .catch(function(err) {
+                console.log("An error occurred calling scrapeTagPage inside deepScrapeTagPage" + ":" + err);
         });        
     });
 };
