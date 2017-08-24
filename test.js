@@ -15,7 +15,7 @@ describe('instagram-tagscrape', function(){
             assert.fail('Promise should be rejected')
             done();
         })
-        .catch(function(err){ 
+        .catch(function(err){
             assert.typeOf(err, 'error');
             done();
         });
@@ -39,7 +39,7 @@ describe('instagram-tagscrape', function(){
             assert.fail('Promise should be rejected')
             done();
         })
-        .catch(function(err){ 
+        .catch(function(err){
             assert.typeOf(err, 'error');
             done();
         });
@@ -54,14 +54,14 @@ describe('instagram-tagscrape', function(){
         });
 
     });
-    
+
     it('should throw error when called with missing id argument', function(done){
 
         ig.scrapeLocationPage().then(function(result){
             assert.fail('Promise should be rejected')
             done();
         })
-        .catch(function(err){ 
+        .catch(function(err){
             assert.typeOf(err, 'error');
             done();
         });
