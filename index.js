@@ -66,7 +66,7 @@ exports.scrapePostPage = function(code) {
         request(postURL + code, function(err, response, body){
             var data = scrape(body);
             if (data) {
-                resolve(data.entry_data.PostPage[0].graphql.shortcode_media); 
+                resolve(data.entry_data.PostPage[0].media); 
             }
             else {
                 reject(new Error('Error scraping post page "' + code + '"'));
