@@ -14,11 +14,23 @@ exports.deepScrapeTagPage = function(tag) {
                     if (postPage.location != null && postPage.location.has_public_page) {
                         return exports.scrapeLocationPage(postPage.location.id).then(function(locationPage){
                             tagPage.media[i].location = locationPage;
+                        })
+                        .catch(function(err) {
+                            console.log("An error occurred calling scrapeLocationPage inside deepScrapeTagPage" + ":" + err);
                         });
                     }
+                })
+                .catch(function(err) {
+                    console.log("An error occurred calling scrapePostPage inside deepScrapeTagPage" + ":" + err);
                 });
             })
-            .then(function(){ resolve(tagPage); });
+            .then(function(){ resolve(tagPage); })
+            .catch(function(err) {
+                console.log("An error occurred resolving tagPage inside deepScrapeTagPage" + ":" + err);
+            });
+        })
+        .catch(function(err) {
+                console.log("An error occurred calling scrapeTagPage inside deepScrapeTagPage" + ":" + err);
         });        
     });
 };
@@ -54,7 +66,7 @@ exports.scrapePostPage = function(code) {
         request(postURL + code, function(err, response, body){
             var data = scrape(body);
             if (data) {
-                resolve(data.entry_data.PostPage[0].media); 
+                resolve(data.entry_data.PostPage[0].graphql.shortcode_media); 
             }
             else {
                 reject(new Error('Error scraping post page "' + code + '"'));
@@ -87,8 +99,8 @@ var scrape = function(html) {
     }
     catch(e) {
         if (process.env.NODE_ENV != 'production') {
-            console.log(html);
-            console.error('The above HTML returned from instagram was not suitable for scraping');
+            //console.log(html);
+            console.error('The HTML returned from instagram was not suitable for scraping');
         }
         return null
     }
