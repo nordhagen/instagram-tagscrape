@@ -44,7 +44,10 @@ exports.scrapeTagPage = function(tag) {
 
             var data = scrape(body)
 
-            if (data) {
+            if (data && data.entry_data && 
+                data.entry_data.TagPage[0] && 
+                data.entry_data.TagPage[0].tag && 
+                data.entry_data.TagPage[0].tag.media) {
                 var media = data.entry_data.TagPage[0].tag.media;
                 resolve({
                     total: media.count,
@@ -65,7 +68,10 @@ exports.scrapePostPage = function(code) {
 
         request(postURL + code, function(err, response, body){
             var data = scrape(body);
-            if (data) {
+            if (data && data.entry_data && 
+                data.entry_data.PostPage[0] && 
+                data.entry_data.PostPage[0].graphql && 
+                data.entry_data.PostPage[0].graphql.shortcode_media) {
                 resolve(data.entry_data.PostPage[0].graphql.shortcode_media); 
             }
             else {
@@ -82,7 +88,9 @@ exports.scrapeLocationPage = function(id) {
         request(locURL + id, function(err, response, body){
             var data = scrape(body);
 
-            if (data) {
+            if (data && data.entry_data && 
+                data.entry_data.LocationsPage[0] && 
+                data.entry_data.LocationsPage[0].location) {
                 resolve(data.entry_data.LocationsPage[0].location);
             }
             else {
