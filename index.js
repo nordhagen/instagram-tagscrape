@@ -9,7 +9,7 @@ exports.deepScrapeTagPage = function(tag) {
     return new Promise(function(resolve, reject){
         exports.scrapeTagPage(tag).then(function(tagPage){
             return Promise.map(tagPage.media, function(media, i, len) {
-                return exports.scrapePostPage(media.code).then(function(postPage){
+                return exports.scrapePostPage(media.node.shortcode).then(function(postPage){
                     tagPage.media[i] = postPage;
                     if (postPage.location != null && postPage.location.has_public_page) {
                         return exports.scrapeLocationPage(postPage.location.id).then(function(locationPage){
@@ -46,13 +46,15 @@ exports.scrapeTagPage = function(tag) {
 
             if (data && data.entry_data && 
                 data.entry_data.TagPage[0] && 
-                data.entry_data.TagPage[0].tag && 
-                data.entry_data.TagPage[0].tag.media) {
-                var media = data.entry_data.TagPage[0].tag.media;
+                data.entry_data.TagPage[0].graphql &&
+                data.entry_data.TagPage[0].graphql.hashtag &&
+                data.entry_data.TagPage[0].graphql.hashtag.edge_hashtag_to_media &&
+                data.entry_data.TagPage[0].graphql.hashtag.edge_hashtag_to_media.edges) {                
+                var edge_hashtag_to_media = data.entry_data.TagPage[0].graphql.hashtag.edge_hashtag_to_media;
                 resolve({
-                    total: media.count,
-                    count: media.nodes.length,
-                    media: media.nodes
+                    total: edge_hashtag_to_media.count,
+                    count: edge_hashtag_to_media.edges.length,
+                    media: edge_hashtag_to_media.edges
                 });
             }
             else {
